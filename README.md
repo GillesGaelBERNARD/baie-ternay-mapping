@@ -19,7 +19,7 @@ High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted
 | Full bay | DJI FC3170 camera, 70 m altitude, 30 km/h | 1,604 | S-pattern, 75% overlap | 2.5 cm/px |
 | Large reef area | DJI FC3170 camera, 30 m altitude, 6 km/h | 1,052 | S-pattern, 85% overlap | 1.1 cm/px |
 | Reef detail | DJI FC3170 camera, 10 m altitude, 5 km/h | 324 | Grid pattern, 85% overlap | 0.4 cm/px |
-| Underwater reef | Olympus TG-6, approximately 1 m above the seafloor | 2,605 | Three adjoining sections | approximately 1.9 mm/px[^1] |
+| Underwater reef | Olympus TG-6, approximately 1 m above the seafloor | 2,605 | Three adjoining sections | approximately 1.9 mm/px |
 
 The drone imagery was acquired on 11–12 December 2021. The underwater survey was conducted during January 2022; its exact acquisition date or dates are unknown.
 
@@ -156,5 +156,3 @@ README.md          Project description and methodology
 ```
 
 Project owner: [GillesGaelBERNARD](https://github.com/GillesGaelBERNARD)
-
-[^1]: Approximate underwater output resolution recorded in the original processing notes. Manual registration and resampling can change the pixel size of derived aligned rasters.
