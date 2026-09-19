@@ -1,8 +1,8 @@
 # Baie Ternay Marine Park mapping
 
-**Survey period: 11 December 2021–17 January 2022.**
+**Survey period: December 2021–January 2022.**
 
-High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted in December 2021 and January 2022. The project combines drone surveys acquired on 11–12 December 2021 (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater reef photogrammetry acquired on 17 January 2022.
+High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted in December 2021 and January 2022. The project combines drone surveys acquired on 11–12 December 2021 (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater reef photogrammetry carried out during January 2022. The exact underwater acquisition date—or dates, if the work spanned several days—is not recorded.
 
 **This repository contains preview imagery only.** It includes lightweight images for browsing in this README and higher-resolution preview JPEGs for download. The full original image datasets, full-resolution orthomosaics, georeferenced GeoTIFFs and other processing outputs are available on request.
 
@@ -21,7 +21,7 @@ High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted
 | Reef detail | DJI FC3170 camera, 10 m altitude, 5 km/h | 324 | Grid pattern, 85% overlap | 0.4 cm/px |
 | Underwater reef | Olympus TG-6, approximately 1 m above the seafloor | 2,605 | Three adjoining sections | approximately 1.9 mm/px[^1] |
 
-The drone imagery was acquired on 11–12 December 2021. The underwater survey was acquired on 17 January 2022.
+The drone imagery was acquired on 11–12 December 2021. The underwater survey was conducted during January 2022; its exact acquisition date or dates are unknown.
 
 ## Study area and georeferencing
 
@@ -50,6 +50,8 @@ The 70 m survey established full-bay context. The 30 m and 10 m surveys progress
 ### Underwater photogrammetry
 
 The underwater survey covered an approximately 27 m-long by 6 m-wide reef strip, processed as three adjoining sections of roughly 6 × 9 m each. A 50 cm graduated PVC bar was placed in each section for scale, and measuring tape marked the edge of the survey area.
+
+The underwater acquisition took place during January 2022, but the exact date or dates are not known. Date fields in the edited JPEG files are not treated as evidence of the field date because they may reflect the image-processing or export workflow.
 
 The 2,605 Olympus TG-6 photographs are 4,000 × 3,000 pixels. The camera was held approximately 1 m above the seafloor at 5.4 mm focal length (30 mm full-frame equivalent). EXIF metadata records ISO 100–160, f/2.3–f/3.2, shutter speeds from 1/250 to 1/60 s, and that the flash was disabled throughout.
 
@@ -100,6 +102,15 @@ The following full-resolution material can be requested:
 - complete edited Olympus TG-6 underwater photogrammetry dataset;
 - full-resolution orthomosaics and georeferenced GeoTIFF files; and
 - additional processing outputs, subject to availability.
+
+Examples of the larger requestable raster files are:
+
+| Requestable file | Approximate size |
+|---|---:|
+| Underwater orthomosaic GeoTIFF — part 1 | 322 MB |
+| Underwater orthomosaic GeoTIFF — part 2 | 394 MB |
+| Underwater orthomosaic GeoTIFF — part 3 | 293 MB |
+| Full-bay 70 m drone GeoTIFF | 2.19 GB |
 
 To request data, [open a data-request issue](https://github.com/GillesGaelBERNARD/baie-ternay-mapping/issues/new?template=data-request.yml) and describe the dataset, intended use and preferred format. GitHub issues are public, so do not include private contact details; a private contact route can be arranged after the initial request. No explicit reuse licence is currently attached to the source datasets, so please also state the intended reuse and attribution.
 
