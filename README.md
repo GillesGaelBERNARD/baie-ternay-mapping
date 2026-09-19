@@ -51,7 +51,13 @@ The 2,605 Olympus TG-6 photographs are 4,000 × 3,000 pixels. The camera was hel
 
 Before reconstruction, the underwater images were sorted into batches with similar visual and lighting conditions. Each batch received a consistent RawTherapee treatment, including colour and exposure/illumination corrections appropriate to that group, and was then exported with RawTherapee 5.8. This reduced within-group appearance differences while allowing different conditions to receive different corrections.
 
-Each section was reconstructed in WebODM. Because the underwater photographs contain no usable GPS positions, their initial reconstructions had no valid geographic placement. Derived underwater orthomosaics were then manually registered to the 70 m drone orthomosaic using visible reef features and reshaping tools. Their absolute position should therefore be treated as approximate rather than as an independent survey-grade measurement.
+Each section was reconstructed in WebODM. Because the underwater photographs contain no usable GPS positions, their initial reconstructions had no valid geographic placement. Derived underwater orthomosaics were then manually registered to the 70 m drone orthomosaic using visible reef features and reshaping tools. During this placement, the orthomosaics were scaled to the correct physical dimensions by checking the lengths of the graduated 50 cm PVC bars and measuring tapes visible in the imagery. Their absolute position should nevertheless be treated as approximate rather than as an independent survey-grade measurement.
+
+### Registration on the 70 m orthomosaic
+
+![The three underwater orthomosaic sections manually registered over the 70 m drone orthomosaic in QGIS](assets/maps/underwater_ortho_on_70m_drone_tif.png)
+
+*QGIS view of the three underwater sections after scaling and manual placement on the georeferenced 70 m drone orthomosaic.*
 
 ## Preview gallery
 
@@ -63,9 +69,19 @@ Each section was reconstructed in WebODM. Because the underwater photographs con
 |---|---|---|
 | ![Underwater orthomosaic section 1](assets/maps/underwater-section-1.jpg) | ![Underwater orthomosaic section 2](assets/maps/underwater-section-2.jpg) | ![Underwater orthomosaic section 3](assets/maps/underwater-section-3.jpg) |
 
+### Native-pixel underwater detail
+
+[![Native-pixel crop of underwater orthomosaic section 1](assets/maps/underwater-detail-native-pixels.png)](assets/maps/underwater-detail-native-pixels.png)
+
+*A 2,800 × 1,800-pixel crop from the full-resolution 7,992 × 9,374-pixel section 1 orthomosaic. The crop retains the source pixels without AI generation, sharpening, colour adjustment or resizing. Click the image to inspect the detail at full size.*
+
 ## Data access
 
-This repository intentionally contains only reduced-resolution JPEG previews and a compressed overview video so that it remains easy to browse and clone. The JPEG files are not georeferenced and should not be used as substitutes for the analysis-ready rasters.
+The tracked repository contains reduced-resolution JPEG previews and a compressed overview video so that it remains easy to browse and clone. The original, higher-resolution JPG/JPEG files supplied with the project are available separately as GitHub Release assets:
+
+**[Download the higher-resolution JPEG collection](https://github.com/GillesGaelBERNARD/baie-ternay-mapping/releases/tag/high-resolution-jpegs-v1)**
+
+The release includes the full-bay, 30 m, 10 m and three underwater orthomosaic JPEGs, together with the original example photographs. These image files are not georeferenced and should not be used as substitutes for the analysis-ready rasters.
 
 The following material can be requested:
 
