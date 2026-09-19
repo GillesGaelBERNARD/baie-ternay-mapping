@@ -39,7 +39,7 @@ Bounds and pixel sizes were read from the source GeoTIFF metadata. They describe
 
 ### Drone surveys
 
-All drone mapping routes were programmed before takeoff with a flight-planning application and then flown according to the planned lines and image overlap. The application name is not recorded in the project notes.
+All drone mapping routes were programmed before takeoff with a flight-planning application and then flown according to the planned lines and image overlap.
 
 The original field notes record the following acquisition details:
 
