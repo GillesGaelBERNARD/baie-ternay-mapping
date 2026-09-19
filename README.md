@@ -41,7 +41,7 @@ Bounds and pixel sizes were read from the source GeoTIFF metadata. They describe
 
 All drone mapping routes were programmed before takeoff with a flight-planning application and then flown according to the planned lines and image overlap.
 
-The original field notes record the following acquisition details:
+Acquisition details and methodology:
 
 - **70 m full-bay survey:** flown on 11 and 12 December 2021 between approximately 16:45 and 17:45, around one hour before sunset. Full-bay coverage required three separate flights using three batteries. The drone flew at 70 m and 30 km/h in an S-pattern with 75% overlap. The survey produced 1,604 photographs and a 2.5 cm/px orthomosaic.
 - **30 m large reef-area survey:** flown on 12 December 2021 from approximately 06:20 to 07:05, around 30 minutes after sunrise. The drone flew at 30 m and 6 km/h in an S-pattern with 85% overlap. The survey produced 1,052 photographs and a 1.1 cm/px orthomosaic.
