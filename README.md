@@ -59,7 +59,7 @@ The 70 m survey established full-bay context. The 30 m and 10 m surveys progress
 
 The underwater survey covered an approximately 27 m-long by 6 m-wide reef strip, processed as three adjoining sections of roughly 6 × 9 m each. A 50 cm graduated PVC bar was placed in each section for scale, and measuring tape marked the edge of the survey area.
 
-The underwater acquisition took place during January 2022, but the exact date or dates are not known. Date fields in the edited JPEG files are not treated as evidence of the field date because they may reflect the image-processing or export workflow.
+The underwater acquisition took place during January 2022.
 
 The 2,605 Olympus TG-6 photographs are 4,000 × 3,000 pixels. The camera was held approximately 1 m above the seafloor at 5.4 mm focal length (30 mm full-frame equivalent). EXIF metadata records ISO 100–160, f/2.3–f/3.2, shutter speeds from 1/250 to 1/60 s, and that the flash was disabled throughout.
 
