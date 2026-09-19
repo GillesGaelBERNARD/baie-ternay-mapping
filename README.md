@@ -75,6 +75,14 @@ Each section was reconstructed in WebODM. Because the underwater photographs con
 
 ## Preview gallery
 
+### 70 m full-bay details
+
+| Reef detail | Seagrass detail |
+|---|---|
+| [![Reef detail in the 70 m full-bay orthomosaic](assets/maps/70m_detail_reef.png)](assets/maps/70m_detail_reef.png) | [![Seagrass detail in the 70 m full-bay orthomosaic](assets/maps/70m_detail_seagrass.png)](assets/maps/70m_detail_seagrass.png) |
+
+*Detail views from the 70 m full-bay orthomosaic. Click either image to inspect it at full size.*
+
 | 30 m reef area | 10 m reef detail |
 |---|---|
 | ![30 m reef orthomosaic](assets/maps/reef-30m.jpg) | ![10 m reef orthomosaic](assets/maps/reef-10m.jpg) |
