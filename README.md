@@ -39,6 +39,12 @@ Bounds and pixel sizes were read from the source GeoTIFF metadata. They describe
 
 ### Drone surveys
 
+The original field notes record the following acquisition details:
+
+- **70 m full-bay survey:** flown on 11 and 12 December 2021 between approximately 16:45 and 17:45, around one hour before sunset. The drone flew at 70 m and 30 km/h in an S-pattern with 75% overlap. The survey produced 1,604 photographs and a 2.5 cm/px orthomosaic.
+- **30 m large reef-area survey:** flown on 12 December 2021 from approximately 06:20 to 07:05, around 30 minutes after sunrise. The drone flew at 30 m and 6 km/h in an S-pattern with 85% overlap. The survey produced 1,052 photographs and a 1.1 cm/px orthomosaic.
+- **10 m reef-section survey:** flown on 12 December 2021 from approximately 17:50 to 18:10, around 20 minutes before sunset. The approximately 15-minute survey covered 0.06 ha at 10 m altitude and 5 km/h, using a grid pattern with 85% overlap. It produced 324 photographs and a 0.4 cm/px orthomosaic.
+
 All drone photographs are 4,000 × 3,000 pixels (12 MP), recorded with a DJI FC3170 camera at 4.5 mm focal length (24 mm full-frame equivalent) and f/2.8. Camera settings varied automatically with the available light:
 
 - 70 m survey: ISO 100–210, shutter speed 1/640–1/15 s; flown near sunset over two days.
