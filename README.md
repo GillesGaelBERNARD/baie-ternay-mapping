@@ -122,6 +122,26 @@ To request data, [open a data-request issue](https://github.com/GillesGaelBERNAR
 - Nominal spatial resolutions describe output pixel size, not guaranteed positional or measurement accuracy.
 - These products are for documentation and research use, not navigation.
 
+## Field image examples
+
+These lightweight examples show the source imagery used for the reconstructions. Click an image to open the larger README copy; higher-resolution preview versions are available in [`assets/higher-resolution-previews/examples`](assets/higher-resolution-previews/examples).
+
+### Drone survey photographs
+
+| 70 m survey — example 1 | 70 m survey — example 2 |
+|---|---|
+| [![Example photograph from the 70 m drone survey](assets/field-images/drone-70m-01.jpg)](assets/field-images/drone-70m-01.jpg) | [![Second example photograph from the 70 m drone survey](assets/field-images/drone-70m-02.jpg)](assets/field-images/drone-70m-02.jpg) |
+
+| 30 m reef survey | 10 m reef-detail survey |
+|---|---|
+| [![Example photograph from the 30 m drone survey](assets/field-images/drone-30m.jpg)](assets/field-images/drone-30m.jpg) | [![Example photograph from the 10 m drone survey](assets/field-images/drone-10m.jpg)](assets/field-images/drone-10m.jpg) |
+
+### Underwater survey photographs
+
+| Underwater example 1 | Underwater example 2 |
+|---|---|
+| [![Example Olympus TG-6 underwater photograph](assets/field-images/underwater-01.jpg)](assets/field-images/underwater-01.jpg) | [![Second example Olympus TG-6 underwater photograph](assets/field-images/underwater-02.jpg)](assets/field-images/underwater-02.jpg) |
+
 ## Repository contents
 
 ```text
