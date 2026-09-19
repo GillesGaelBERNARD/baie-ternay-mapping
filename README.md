@@ -2,7 +2,7 @@
 
 **Survey period: December 2021–January 2022.**
 
-High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted in December 2021 and January 2022. The project combines drone surveys acquired on 11–12 December 2021 (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater reef photogrammetry carried out during January 2022. The exact underwater acquisition date—or dates, if the work spanned several days—is not recorded.
+High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted in December 2021 and January 2022. The project combines drone surveys acquired on 11–12 December 2021 (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater reef photogrammetry carried out during January 2022.
 
 **This repository contains preview imagery only.** It includes lightweight images for browsing in this README and higher-resolution preview JPEGs for download. The full original image datasets, full-resolution orthomosaics, georeferenced GeoTIFFs and other processing outputs are available on request.
 
