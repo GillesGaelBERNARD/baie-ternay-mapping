@@ -4,6 +4,8 @@
 
 High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted in December 2021 and January 2022. The project combines drone surveys acquired on 11–12 December 2021 (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater reef photogrammetry acquired on 17 January 2022.
 
+**This repository contains preview imagery only.** It includes lightweight images for browsing in this README and higher-resolution preview JPEGs for download. The full original image datasets, full-resolution orthomosaics, georeferenced GeoTIFFs and other processing outputs are available on request.
+
 ![70 m orthomosaic of Baie Ternay](assets/maps/full-bay-70m.jpg)
 
 *Lower-resolution preview of the 70 m orthomosaic. Black areas contain no reconstructed imagery. The georeferenced full-resolution GeoTIFF is available on request.*
@@ -77,18 +79,25 @@ Each section was reconstructed in WebODM. Because the underwater photographs con
 
 *A 2,800 × 1,800-pixel crop from the full-resolution 7,992 × 9,374-pixel section 1 orthomosaic. The crop retains the source pixels without AI generation, sharpening, colour adjustment or resizing. Click the image to inspect the detail at full size.*
 
+#### Closer underwater detail
+
+[![Closer crop of the underwater orthomosaic showing coral detail and a graduated PVC scale bar](assets/maps/underwater-detail-native-pixels-2.png)](assets/maps/underwater-detail-native-pixels-2.png)
+
+*A tighter view of the underwater orthomosaic showing individual coral structures and a graduated PVC scale bar at left. Click the image to inspect it at full size.*
+
 ## Data access
 
-The tracked repository contains reduced-resolution JPEG previews and a compressed overview video so that it remains easy to browse and clone. The original, higher-resolution JPG/JPEG files supplied with the project are available separately as GitHub Release assets:
+The images displayed directly in this README are reduced previews. The higher-resolution preview files from the original project folder that fit within GitHub's regular 100 MiB per-file limit are also stored in the repository:
 
-**[Download the higher-resolution JPEG collection](https://github.com/GillesGaelBERNARD/baie-ternay-mapping/releases/tag/high-resolution-jpegs-v1)**
+- **[Browse the higher-resolution previews in the repository](assets/higher-resolution-previews)**
+- **[Download the complete higher-resolution preview collection](https://github.com/GillesGaelBERNARD/baie-ternay-mapping/releases/tag/high-resolution-jpegs-v1)**
 
-The release includes the full-bay, 30 m, 10 m and three underwater orthomosaic JPEGs, together with the original example photographs. These image files are not georeferenced and should not be used as substitutes for the analysis-ready rasters.
+The complete Release contains 12 preview files: the full-bay, 30 m, 10 m and three underwater orthomosaic JPEGs, together with the example photographs. The 111 MB full-bay preview exceeds GitHub's regular Git file limit, so it is available in the Release but is not tracked inside the repository. All of these JPG/JPEG files are still preview derivatives—not the original full-resolution products—and are not georeferenced.
 
-The following material can be requested:
+The following full-resolution material can be requested:
 
-- original drone image sets for the 70 m, 30 m and 10 m surveys;
-- edited Olympus TG-6 underwater image set;
+- complete original drone image datasets for the 70 m, 30 m and 10 m surveys;
+- complete edited Olympus TG-6 underwater photogrammetry dataset;
 - full-resolution orthomosaics and georeferenced GeoTIFF files; and
 - additional processing outputs, subject to availability.
 
@@ -106,9 +115,10 @@ To request data, [open a data-request issue](https://github.com/GillesGaelBERNAR
 
 ```text
 assets/
-  field-images/   Example source photographs
-  maps/           Reduced-resolution orthomosaic previews
-  video/          Compressed project overview
+  field-images/                Lightweight example photographs
+  higher-resolution-previews/  Downloadable preview exports that fit in Git
+  maps/                        README-optimized orthomosaic previews
+  video/                       Compressed project overview
 .github/
   ISSUE_TEMPLATE/ Data-request form
 README.md          Project description and methodology
