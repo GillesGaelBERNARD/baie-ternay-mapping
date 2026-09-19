@@ -21,7 +21,7 @@ High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted
 | Reef detail | DJI Mavic Air 2, 10 m altitude, 5 km/h | 324 | Grid pattern, 85% overlap | 0.4 cm/px |
 | Underwater reef | Olympus TG-6, approximately 1 m above the seafloor | 2,605 | Three adjoining sections | approximately 1.9 mm/px |
 
-The drone imagery was acquired on 11–12 December 2021. The underwater survey was conducted during January 2022; its exact acquisition date or dates are unknown.
+The drone imagery was acquired on 11–12 December 2021. The underwater survey was conducted during January 2022.
 
 ## Study area and georeferencing
 
