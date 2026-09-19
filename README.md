@@ -16,9 +16,9 @@ High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted
 
 | Survey | Acquisition | Images | Pattern / overlap | Nominal orthomosaic resolution |
 |---|---|---:|---|---:|
-| Full bay | DJI FC3170 camera, 70 m altitude, 30 km/h | 1,604 | S-pattern, 75% overlap | 2.5 cm/px |
-| Large reef area | DJI FC3170 camera, 30 m altitude, 6 km/h | 1,052 | S-pattern, 85% overlap | 1.1 cm/px |
-| Reef detail | DJI FC3170 camera, 10 m altitude, 5 km/h | 324 | Grid pattern, 85% overlap | 0.4 cm/px |
+| Full bay | DJI Mavic Air 2, 70 m altitude, 30 km/h | 1,604 | S-pattern, 75% overlap | 2.5 cm/px |
+| Large reef area | DJI Mavic Air 2, 30 m altitude, 6 km/h | 1,052 | S-pattern, 85% overlap | 1.1 cm/px |
+| Reef detail | DJI Mavic Air 2, 10 m altitude, 5 km/h | 324 | Grid pattern, 85% overlap | 0.4 cm/px |
 | Underwater reef | Olympus TG-6, approximately 1 m above the seafloor | 2,605 | Three adjoining sections | approximately 1.9 mm/px |
 
 The drone imagery was acquired on 11–12 December 2021. The underwater survey was conducted during January 2022; its exact acquisition date or dates are unknown.
@@ -39,13 +39,15 @@ Bounds and pixel sizes were read from the source GeoTIFF metadata. They describe
 
 ### Drone surveys
 
+All drone mapping routes were programmed before takeoff with a flight-planning application and then flown according to the planned lines and image overlap. The application name is not recorded in the project notes.
+
 The original field notes record the following acquisition details:
 
-- **70 m full-bay survey:** flown on 11 and 12 December 2021 between approximately 16:45 and 17:45, around one hour before sunset. The drone flew at 70 m and 30 km/h in an S-pattern with 75% overlap. The survey produced 1,604 photographs and a 2.5 cm/px orthomosaic.
+- **70 m full-bay survey:** flown on 11 and 12 December 2021 between approximately 16:45 and 17:45, around one hour before sunset. Full-bay coverage required three separate flights using three batteries. The drone flew at 70 m and 30 km/h in an S-pattern with 75% overlap. The survey produced 1,604 photographs and a 2.5 cm/px orthomosaic.
 - **30 m large reef-area survey:** flown on 12 December 2021 from approximately 06:20 to 07:05, around 30 minutes after sunrise. The drone flew at 30 m and 6 km/h in an S-pattern with 85% overlap. The survey produced 1,052 photographs and a 1.1 cm/px orthomosaic.
 - **10 m reef-section survey:** flown on 12 December 2021 from approximately 17:50 to 18:10, around 20 minutes before sunset. The approximately 15-minute survey covered 0.06 ha at 10 m altitude and 5 km/h, using a grid pattern with 85% overlap. It produced 324 photographs and a 0.4 cm/px orthomosaic.
 
-All drone photographs are 4,000 × 3,000 pixels (12 MP), recorded with a DJI FC3170 camera at 4.5 mm focal length (24 mm full-frame equivalent) and f/2.8. Camera settings varied automatically with the available light:
+All drone photographs are 4,000 × 3,000 pixels (12 MP), recorded with a **DJI Mavic Air 2** using its FC3170 camera at 4.5 mm focal length (24 mm full-frame equivalent) and f/2.8. Camera settings varied automatically with the available light:
 
 - 70 m survey: ISO 100–210, shutter speed 1/640–1/15 s; flown near sunset over two days.
 - 30 m survey: ISO 100–130, shutter speed 1/250–1/15 s; flown around sunrise.
