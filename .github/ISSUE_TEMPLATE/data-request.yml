@@ -1,0 +1,52 @@
+name: Data request
+description: Request source photographs, GeoTIFF orthomosaics, or related processing outputs
+title: "[Data request] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your interest in the Baie Ternay mapping project. Issues are public: do not post private contact details here. A private contact route can be arranged after the initial request.
+  - type: dropdown
+    id: survey
+    attributes:
+      label: Survey or dataset
+      options:
+        - 70 m full-bay drone survey
+        - 30 m reef-area drone survey
+        - 10 m reef-detail drone survey
+        - Underwater Olympus TG-6 survey
+        - Multiple datasets
+        - Other processing output
+    validations:
+      required: true
+  - type: checkboxes
+    id: files
+    attributes:
+      label: Requested material
+      options:
+        - label: Source photographs
+        - label: Full-resolution orthomosaic
+        - label: Georeferenced GeoTIFF
+        - label: Other processing output
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Intended use
+      description: Briefly describe the research, educational, conservation, or other purpose.
+      placeholder: I would like to use the data for...
+    validations:
+      required: true
+  - type: textarea
+    id: format
+    attributes:
+      label: Format and scope
+      description: Note any preferred file format, survey subset, or other constraints.
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand that a request does not automatically grant a reuse licence and that availability and transfer method will be confirmed separately.
+          required: true

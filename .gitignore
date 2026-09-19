@@ -1,0 +1,10 @@
+# Full-resolution and source data are distributed on request, not through Git.
+*.tif
+*.tiff
+data/raw/
+data/geotiff/
+
+# Local working files
+*.odt
+Thumbs.db
+.DS_Store
