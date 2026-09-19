@@ -1,6 +1,8 @@
 # Baie Ternay Marine Park mapping
 
-High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, combining three drone surveys (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater photogrammetry of a reef area.
+**Survey period: 11 December 2021–17 January 2022.**
+
+High-resolution mapping of Baie Ternay Marine Park, Mahé, Seychelles, conducted in December 2021 and January 2022. The project combines drone surveys acquired on 11–12 December 2021 (70 m, 30 m and 10 m nominal flight altitudes) with close-range underwater reef photogrammetry acquired on 17 January 2022.
 
 ![70 m orthomosaic of Baie Ternay](assets/maps/full-bay-70m.jpg)
 
